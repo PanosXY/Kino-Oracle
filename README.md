@@ -5,12 +5,10 @@ Installation
 ------------
 
 Clone repository:
-::
 
     git clone https://github.com/PanosXY/Kino-Oracle.git
     
 Install the script:
-::
 
     cd /path/to/repo
     sudo ./setup.sh
@@ -19,7 +17,6 @@ Usage
 -----
 
 After installing the script, you are ready to run it:
-::
 
     kino.py
     
