@@ -26,4 +26,4 @@ After installing the script, you are ready to run it:
 Demo Output
 -----------
 
-![alt tag](https://github.com/PanosXY/Kino-Oracle/blob/master/demo.JPG)
+![demo](https://github.com/PanosXY/Kino-Oracle/blob/master/demo.JPG)
