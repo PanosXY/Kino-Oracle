@@ -5,6 +5,12 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
+cmd=`which pip`
+if [ $? != 0 ]; then
+    echo "Installing basic modules...(This may take a while)"
+    (apt-get install -y python-pip && pip install setuptools) > /dev/null
+fi
+
 current_path=`pwd`
 cmd=`pip list | grep ansicolors | wc -l`
 if (($cmd == 0)); then
